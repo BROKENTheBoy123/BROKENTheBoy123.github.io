@@ -2214,6 +2214,9 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
+.utterances {
+  max-width: unset;
+}
 .search-active {
   overflow: hidden;
 }
@@ -2517,6 +2520,7 @@ mark.search-keyword {
   color: var(--text-color);
   margin-top: 12px;
   max-height: calc(100vh - 24px);
+  opacity: 1;
 }
 .site-state-item {
   padding: 0 10px;
