@@ -24,6 +24,31 @@
 ]]></content>
   </entry>
   <entry>
+    <title>如何创建一个邮箱？</title>
+    <url>/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
+    <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
+<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
+<li>浏览器</li>
+</ol>
+<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
+<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
+<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
+<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
+<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
+<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
+<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
+<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
+</ol>
+]]></content>
+      <categories>
+        <category>琐碎教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>邮箱</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
     <url>/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
@@ -49,35 +74,10 @@
         <category>Hexo+Github 制作博客教程</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>Hexo</tag>
         <tag>Github</tag>
         <tag>博客</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何创建一个邮箱？</title>
-    <url>/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
-    <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
-<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
-<li>浏览器</li>
-</ol>
-<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
-<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
-<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
-<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
-<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
-<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
-<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
-<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
-</ol>
-]]></content>
-      <categories>
-        <category>琐碎教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>邮箱</tag>
       </tags>
   </entry>
   <entry>
