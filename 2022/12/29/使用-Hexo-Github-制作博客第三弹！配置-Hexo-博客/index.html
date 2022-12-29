@@ -20,27 +20,37 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"brokentheboy123.github.io","root":"/","images":"/images","scheme":"gemini","darkmode":true,"version":"8.14.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Hi, I’m BROKENTheBoy!嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发（因为电脑配置不行），请大家见谅！">
+    <meta name="description" content="嗨，大家好！这里是BROKENTheBoy。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！ 准备工具 命令行工具 Hexo  开始教程Hexo 的网站配置文件Hexo 的网站配置文件位于网站根目录下的_config.yml文件。 开始配置 打开网站配置文件，在文件中找到位于# Site下的各行代码（如图所示）。 其中titl">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇真正意义上的文章">
-<meta property="og:url" content="http://brokentheboy123.github.io/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:title" content="使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客">
+<meta property="og:url" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="BROKENTheBoy">
-<meta property="og:description" content="Hi, I’m BROKENTheBoy!嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发（因为电脑配置不行），请大家见谅！">
+<meta property="og:description" content="嗨，大家好！这里是BROKENTheBoy。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！ 准备工具 命令行工具 Hexo  开始教程Hexo 的网站配置文件Hexo 的网站配置文件位于网站根目录下的_config.yml文件。 开始配置 打开网站配置文件，在文件中找到位于# Site下的各行代码（如图所示）。 其中titl">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-12-05T12:39:27.000Z">
-<meta property="article:modified_time" content="2022-12-05T12:47:30.095Z">
+<meta property="og:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png">
+<meta property="og:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C1.png">
+<meta property="og:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C2.png">
+<meta property="og:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C3.png">
+<meta property="og:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C4.png">
+<meta property="article:published_time" content="2022-12-29T04:14:30.000Z">
+<meta property="article:modified_time" content="2022-12-29T05:56:52.853Z">
 <meta property="article:author" content="BROKENTheBoy">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Github">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png">
 
 
-<link rel="canonical" href="http://brokentheboy123.github.io/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/">
+<link rel="canonical" href="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://brokentheboy123.github.io/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/","path":"2022/12/05/第一篇真正意义上的文章/","title":"第一篇真正意义上的文章"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/","path":"2022/12/29/使用-Hexo-Github-制作博客第三弹！配置-Hexo-博客/","title":"使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>第一篇真正意义上的文章 | BROKENTheBoy</title>
+<title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客 | BROKENTheBoy</title>
   
 
 
@@ -141,7 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hi-I%E2%80%99m-BROKENTheBoy"><span class="nav-number">1.</span> <span class="nav-text">Hi, I’m BROKENTheBoy!</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7"><span class="nav-number">1.</span> <span class="nav-text">准备工具</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E6%95%99%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">开始教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-%E7%9A%84%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo 的网站配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E9%85%8D%E7%BD%AE"><span class="nav-number">2.2.</span> <span class="nav-text">开始配置</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -205,7 +215,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://brokentheboy123.github.io/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/">
+    <link itemprop="mainEntityOfPage" href="http://brokentheboy123.github.io/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/53788303724bbdc22d4604297c9b12d86d05f8b7.jpg@150w_150h.jpg">
@@ -218,12 +228,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="第一篇真正意义上的文章 | BROKENTheBoy">
+      <meta itemprop="name" content="使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客 | BROKENTheBoy">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          第一篇真正意义上的文章
+          使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客
         </h1>
 
         <div class="post-meta-container">
@@ -235,7 +245,16 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-12-05 20:39:27 / 修改时间：20:47:30" itemprop="dateCreated datePublished" datetime="2022-12-05T20:39:27+08:00">2022-12-05</time>
+      <time title="创建时间：2022-12-29 12:14:30 / 修改时间：13:56:52" itemprop="dateCreated datePublished" datetime="2022-12-29T12:14:30+08:00">2022-12-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">Hexo+Github 制作博客教程</span></a>
+        </span>
     </span>
 
   
@@ -248,7 +267,23 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Hi-I’m-BROKENTheBoy"><a href="#Hi-I’m-BROKENTheBoy" class="headerlink" title="Hi, I’m BROKENTheBoy!"></a>Hi, I’m BROKENTheBoy!</h1><p>嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！<br>接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发<del>（因为电脑配置不行）</del>，请大家见谅！</p>
+        <p>嗨，大家好！这里是BROKENTheBoy。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
+<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
+<li>命令行工具</li>
+<li>Hexo</li>
+</ol>
+<h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="Hexo-的网站配置文件"><a href="#Hexo-的网站配置文件" class="headerlink" title="Hexo 的网站配置文件"></a>Hexo 的网站配置文件</h2><p>Hexo 的网站配置文件位于网站根目录下的_config.yml文件。</p>
+<h2 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h2><ol>
+<li>打开网站配置文件，在文件中找到位于<code># Site</code>下的各行代码（如图所示）。<img src="/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png" alt="找到基础配置"></li>
+<li>其中<code>title</code>用来配置网站的标题与在网站上显示的名字，如果我将<code>title</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C1.png" alt="效果"></li>
+<li><code>subtitle</code>用来配置网站的副标题（网站名不改变，副标题在网站上显示的名字下），如果我将<code>subtitle</code>设为<code>&#39;blog&#39;</code>，效果如图所示：<img src="/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C2.png" alt="效果"></li>
+<li><code>description</code>用来配置网站的描述，如果我将<code>description</code>设为<code>&#39;欢迎来到我的博客！&#39;</code>，在 Hexo 内置的主题中是显示不出来的，在一些主题中（比如说NexT）会显示出来。</li>
+<li><code>keywords</code>用来配置网站的关键词，如果我将<code>keywords</code>设为<code>blog</code>，在主题中是显示不出来的，在官方文档中有对<code>keywords</code>的模糊解释，大概是在搜索引擎上搜索设置的关键词，则会定位到这个网站（如果真是这样，请多设置一点关键词，让搜索引擎精确定位），希望有大佬在评论区解释！</li>
+<li><code>author</code>用来配置网站的作者名，如果我将<code>author</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C3.png" alt="效果"></li>
+<li><code>language</code>用来配置网站的语言，对于中国大陆用户来说，可使用<code>&#39;zh-Hans&#39;</code>或<code>&#39;zh-CN&#39;</code>。效果如图所示：<img src="/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C4.png" alt="效果"></li>
+<li><code>timezone</code>用来配置网站的时区，Hexo 默认使用电脑上设置的时区——当然，你也可以手动设置，对于中国大陆用户来说，设为<code>&#39;Asia/Shanghai&#39;</code>。设置的时区可能与发布文章显示的时间有关，希望有大佬在评论区解释！<br>在这篇教程中，我介绍了基础的 Hexo 博客配置，更完全的可到 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a> 了解！这次的教程就结束了，拜拜！</li>
+</ol>
+<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
 
     </div>
 
@@ -275,6 +310,12 @@
   </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/Github/" rel="tag"># Github</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"># 博客</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+          </div>
 
         
   <div class="addthis_inline_share_toolbox social-like">
@@ -283,14 +324,11 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2022/12/04/test/" rel="prev" title="test">
-                  <i class="fa fa-chevron-left"></i> test
+                <a href="/2022/12/27/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%BA%8C%E5%BC%B9%EF%BC%81Hexo-%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" rel="prev" title="使用 Hexo+Github 制作博客第二弹！Hexo 基础命令">
+                  <i class="fa fa-chevron-left"></i> 使用 Hexo+Github 制作博客第二弹！Hexo 基础命令
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/" rel="next" title="如何创建一个邮箱？">
-                  如何创建一个邮箱？ <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
