@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/blog/2022/12/04/test/</url>
+    <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/blog/2022/12/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -19,9 +24,69 @@
 ]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/blog/2022/12/04/test/</url>
-    <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
+    <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
+    <url>/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
+<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
+<li>Git 或 Node.js</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><ol>
+<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接打开 <a href="https://nodejs.org/zh-cn/download/">Node.js 官网</a> 进行下载，具体下载步骤如下：</li>
+<li>进入官网，由于此处我用的是 Windows 系统，安装的是Windows 安装包，其他系统请自行下载<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85.png" alt="下载安装包">。<em>P.S 此处我已经安装过了 Node.js ,此处不安装了</em></li>
+<li>如果没有梯子，就先找到目前 Node.js 的长期维护版最新版本，再打开 <a href="https://registry.npmmirror.com/binary.html?path=node/">淘宝 Node.js 镜像</a> ，找到此版本，接着选择适合自己的系统版本进行安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E6%89%BE%E5%88%B0%E7%89%88%E6%9C%AC.png" alt="找到系统版本"></li>
+</ol>
+<h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><ol>
+<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接进入 <a href="https://git-scm.com/download/win">Git 官网</a> 进行下载，具体下载步骤如下：</li>
+<li>进入官网，此处我使用的是 Windows 系统，安装的是 Windows 安装包。其他系统请自行下载！<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC.png" alt="选择版本"></li>
+<li>如果没有梯子，就先找到目前 Git 的长期维护版最新版本，再打开 <a href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git 镜像</a> ，找到此版本，接着选择适合自己的系统进行安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC2.png" alt="选择版本2"></li>
+</ol>
+<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><ol>
+<li>打开 CMD（或其他命令提示符），输入以下指令 <code>npm install -g hexo-cli</code>，等待安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令"></li>
+<li>创建一个你想用来存放博客的文件夹，在 CMD（或其他命令提示符）中打开它，输入命令 <code>hexo init</code> 然后静静等待就OK了。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A42.png" alt="输入命令"></li>
+</ol>
+<p>那么本期教程就结束了！感谢大家学习！</p>
+<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
+    <url>/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
+<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
+<li>命令行工具</li>
+<li>Hexo</li>
+</ol>
+<h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="Hexo-的网站配置文件"><a href="#Hexo-的网站配置文件" class="headerlink" title="Hexo 的网站配置文件"></a>Hexo 的网站配置文件</h2><p>Hexo 的网站配置文件位于网站根目录下的_config.yml文件。</p>
+<h2 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h2><ol>
+<li>打开网站配置文件，在文件中找到位于<code># Site</code>下的各行代码（如图所示）。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png" alt="找到基础配置"></li>
+<li>其中<code>title</code>用来配置网站的标题与在网站上显示的名字，如果我将<code>title</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C1.png" alt="效果"></li>
+<li><code>subtitle</code>用来配置网站的副标题（网站名不改变，副标题在网站上显示的名字下），如果我将<code>subtitle</code>设为<code>&#39;blog&#39;</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C2.png" alt="效果"></li>
+<li><code>description</code>用来配置网站的描述，如果我将<code>description</code>设为<code>&#39;欢迎来到我的博客！&#39;</code>，在 Hexo 内置的主题中是显示不出来的，在一些主题中（比如说NexT）会显示出来。</li>
+<li><code>keywords</code>用来配置网站的关键词，如果我将<code>keywords</code>设为<code>blog</code>，在主题中是显示不出来的，在官方文档中有对<code>keywords</code>的模糊解释，大概是在搜索引擎上搜索设置的关键词，则会定位到这个网站（如果真是这样，请多设置一点关键词，让搜索引擎精确定位），希望有大佬在评论区解释！</li>
+<li><code>author</code>用来配置网站的作者名，如果我将<code>author</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C3.png" alt="效果"></li>
+<li><code>language</code>用来配置网站的语言，对于中国大陆用户来说，可使用<code>&#39;zh-Hans&#39;</code>或<code>&#39;zh-CN&#39;</code>。效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C4.png" alt="效果"></li>
+<li><code>timezone</code>用来配置网站的时区，Hexo 默认使用电脑上设置的时区——当然，你也可以手动设置，对于中国大陆用户来说，设为<code>&#39;Asia/Shanghai&#39;</code>。设置的时区可能与发布文章显示的时间有关，希望有大佬在评论区解释！<br>在这篇教程中，我介绍了基础的 Hexo 博客配置，更完全的可到 <a href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a> 了解！这次的教程就结束了，拜拜！</li>
+</ol>
+<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+        <tag>教程</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用 Hexo+Github 制作博客第二弹！Hexo 基础命令</title>
@@ -100,37 +165,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
-    <url>/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
-<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>命令行工具</li>
-<li>Hexo</li>
-</ol>
-<h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="Hexo-的网站配置文件"><a href="#Hexo-的网站配置文件" class="headerlink" title="Hexo 的网站配置文件"></a>Hexo 的网站配置文件</h2><p>Hexo 的网站配置文件位于网站根目录下的_config.yml文件。</p>
-<h2 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h2><ol>
-<li>打开网站配置文件，在文件中找到位于<code># Site</code>下的各行代码（如图所示）。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png" alt="找到基础配置"></li>
-<li>其中<code>title</code>用来配置网站的标题与在网站上显示的名字，如果我将<code>title</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C1.png" alt="效果"></li>
-<li><code>subtitle</code>用来配置网站的副标题（网站名不改变，副标题在网站上显示的名字下），如果我将<code>subtitle</code>设为<code>&#39;blog&#39;</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C2.png" alt="效果"></li>
-<li><code>description</code>用来配置网站的描述，如果我将<code>description</code>设为<code>&#39;欢迎来到我的博客！&#39;</code>，在 Hexo 内置的主题中是显示不出来的，在一些主题中（比如说NexT）会显示出来。</li>
-<li><code>keywords</code>用来配置网站的关键词，如果我将<code>keywords</code>设为<code>blog</code>，在主题中是显示不出来的，在官方文档中有对<code>keywords</code>的模糊解释，大概是在搜索引擎上搜索设置的关键词，则会定位到这个网站（如果真是这样，请多设置一点关键词，让搜索引擎精确定位），希望有大佬在评论区解释！</li>
-<li><code>author</code>用来配置网站的作者名，如果我将<code>author</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C3.png" alt="效果"></li>
-<li><code>language</code>用来配置网站的语言，对于中国大陆用户来说，可使用<code>&#39;zh-Hans&#39;</code>或<code>&#39;zh-CN&#39;</code>。效果如图所示：<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%89%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C4.png" alt="效果"></li>
-<li><code>timezone</code>用来配置网站的时区，Hexo 默认使用电脑上设置的时区——当然，你也可以手动设置，对于中国大陆用户来说，设为<code>&#39;Asia/Shanghai&#39;</code>。设置的时区可能与发布文章显示的时间有关，希望有大佬在评论区解释！<br>在这篇教程中，我介绍了基础的 Hexo 博客配置，更完全的可到 <a href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a> 了解！这次的教程就结束了，拜拜！</li>
-</ol>
-<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
-]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>博客</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何创建一个邮箱？</title>
     <url>/blog/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
     <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
@@ -153,6 +187,33 @@
       <tags>
         <tag>教程</tag>
         <tag>邮箱</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐几个工具，Github 使用体验直线上升！</title>
+    <url>/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
+<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
+<li>解决限流问题：<ul>
+<li>FastGithub</li>
+<li>Watt Toolkit</li>
+</ul>
+</li>
+<li>日常写代码问题：<ul>
+<li>Visual Studio Code</li>
+</ul>
+</li>
+</ol>
+<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
+<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/FastGithub.png" alt="FastGithub"></li>
+<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/WattToolkit.png" alt="Watt Toolkit"></li>
+</ol>
+<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
+<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>推荐软件</tag>
       </tags>
   </entry>
   <entry>
@@ -193,33 +254,6 @@
       </tags>
   </entry>
   <entry>
-    <title>推荐几个工具，Github 使用体验直线上升！</title>
-    <url>/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
-<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
-<li>解决限流问题：<ul>
-<li>FastGithub</li>
-<li>Watt Toolkit</li>
-</ul>
-</li>
-<li>日常写代码问题：<ul>
-<li>Visual Studio Code</li>
-</ul>
-</li>
-</ol>
-<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
-<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/FastGithub.png" alt="FastGithub"></li>
-<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/WattToolkit.png" alt="Watt Toolkit"></li>
-</ol>
-<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
-<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"></li>
-</ol>
-]]></content>
-      <tags>
-        <tag>推荐软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>废了废了。。。。</title>
     <url>/blog/2022/12/26/%E5%BA%9F%E4%BA%86%E5%BA%9F%E4%BA%86%E3%80%82%E3%80%82%E3%80%82%E3%80%82/</url>
     <content><![CDATA[<p>还是鸽算了。。。。。。。</p>
@@ -238,12 +272,6 @@
       </categories>
   </entry>
   <entry>
-    <title>第一篇真正意义上的文章</title>
-    <url>/blog/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="Hi-I’m-BROKENTheBoy"><a href="#Hi-I’m-BROKENTheBoy" class="headerlink" title="Hi, I’m BROKENTheBoy!"></a>Hi, I’m BROKENTheBoy!</h1><p>嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！<br>接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发<del>（因为电脑配置不行）</del>，请大家见谅！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>祝大家新年快乐！</title>
     <url>/blog/2022/12/31/%E7%A5%9D%E5%A4%A7%E5%AE%B6%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%EF%BC%81/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在这里祝大家新年快乐！祝大家在新的一年里岁岁平安，安居乐业，业和邦兴，兴旺发达，大吉大利，力争上游！</p>
@@ -253,37 +281,9 @@
       </categories>
   </entry>
   <entry>
-    <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
-    <url>/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
-<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>Git 或 Node.js</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><ol>
-<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接打开 <a href="https://nodejs.org/zh-cn/download/">Node.js 官网</a> 进行下载，具体下载步骤如下：</li>
-<li>进入官网，由于此处我用的是 Windows 系统，安装的是Windows 安装包，其他系统请自行下载<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85.png" alt="下载安装包">。<em>P.S 此处我已经安装过了 Node.js ,此处不安装了</em></li>
-<li>如果没有梯子，就先找到目前 Node.js 的长期维护版最新版本，再打开 <a href="https://registry.npmmirror.com/binary.html?path=node/">淘宝 Node.js 镜像</a> ，找到此版本，接着选择适合自己的系统版本进行安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E6%89%BE%E5%88%B0%E7%89%88%E6%9C%AC.png" alt="找到系统版本"></li>
-</ol>
-<h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><ol>
-<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接进入 <a href="https://git-scm.com/download/win">Git 官网</a> 进行下载，具体下载步骤如下：</li>
-<li>进入官网，此处我使用的是 Windows 系统，安装的是 Windows 安装包。其他系统请自行下载！<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC.png" alt="选择版本"></li>
-<li>如果没有梯子，就先找到目前 Git 的长期维护版最新版本，再打开 <a href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git 镜像</a> ，找到此版本，接着选择适合自己的系统进行安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC2.png" alt="选择版本2"></li>
-</ol>
-<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><ol>
-<li>打开 CMD（或其他命令提示符），输入以下指令 <code>npm install -g hexo-cli</code>，等待安装。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令"></li>
-<li>创建一个你想用来存放博客的文件夹，在 CMD（或其他命令提示符）中打开它，输入命令 <code>hexo init</code> 然后静静等待就OK了。<img src="/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A42.png" alt="输入命令"></li>
-</ol>
-<p>那么本期教程就结束了！感谢大家学习！</p>
-<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+    <title>第一篇真正意义上的文章</title>
+    <url>/blog/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="Hi-I’m-BROKENTheBoy"><a href="#Hi-I’m-BROKENTheBoy" class="headerlink" title="Hi, I’m BROKENTheBoy!"></a>Hi, I’m BROKENTheBoy!</h1><p>嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！<br>接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发<del>（因为电脑配置不行）</del>，请大家见谅！</p>
 ]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>博客</tag>
-        <tag>教程</tag>
-      </tags>
   </entry>
 </search>
