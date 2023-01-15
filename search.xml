@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/12/26/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2022/12/04/test/</url>
+    <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
+  </entry>
+  <entry>
     <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
     <url>/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
@@ -33,29 +56,6 @@
         <tag>博客</tag>
         <tag>教程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2022/12/04/test/</url>
-    <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/12/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
@@ -165,31 +165,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何创建一个邮箱？</title>
-    <url>/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
-    <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
-<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
-<li>浏览器</li>
-</ol>
-<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
-<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
-<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
-<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
-<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
-<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
-<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
-<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
-</ol>
-]]></content>
-      <categories>
-        <category>琐碎教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>邮箱</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用 Hexo+Github 制作博客第四弹！部署 Hexo 博客</title>
     <url>/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在前三片教程中，我们已经了解了 Hexo 博客的文件配置、基础命令、网站配置。但是，我们现在只局限于在本地服务器上看博客。今天，我们将要了解在 Github 上部署 Hexo 博客。让我们开始吧！</p>
@@ -227,18 +202,34 @@
       </tags>
   </entry>
   <entry>
+    <title>如何创建一个邮箱？</title>
+    <url>/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
+    <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
+<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
+<li>浏览器</li>
+</ol>
+<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
+<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
+<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
+<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
+<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
+<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
+<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
+<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
+</ol>
+]]></content>
+      <categories>
+        <category>琐碎教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>邮箱</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>废了废了。。。。</title>
     <url>/2022/12/26/%E5%BA%9F%E4%BA%86%E5%BA%9F%E4%BA%86%E3%80%82%E3%80%82%E3%80%82%E3%80%82/</url>
     <content><![CDATA[<p>还是鸽算了。。。。。。。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>明天就要期末考试了。。。</title>
-    <url>/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
-    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -270,6 +261,15 @@
       <tags>
         <tag>推荐软件</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>明天就要期末考试了。。。</title>
+    <url>/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
+    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
   </entry>
   <entry>
     <title>第一篇真正意义上的文章</title>
