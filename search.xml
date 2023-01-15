@@ -6,24 +6,6 @@
     <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/blog/2022/12/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
     <url>/blog/2022/12/18/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%81%E9%85%8D%E7%BD%AE-Hexo-%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
@@ -56,6 +38,24 @@
         <tag>博客</tag>
         <tag>教程</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/2022/12/26/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
@@ -165,6 +165,43 @@
       </tags>
   </entry>
   <entry>
+    <title>使用 Hexo+Github 制作博客第四弹！部署 Hexo 博客</title>
+    <url>/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在前三片教程中，我们已经了解了 Hexo 博客的文件配置、基础命令、网站配置。但是，我们现在只局限于在本地服务器上看博客。今天，我们将要了解在 Github 上部署 Hexo 博客。让我们开始吧！</p>
+<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
+<li>Github 账号</li>
+<li>命令行工具</li>
+<li>Hexo</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="注册一个-Github-账号"><a href="#注册一个-Github-账号" class="headerlink" title="注册一个 Github 账号"></a>注册一个 Github 账号</h2><ol>
+<li>打开 <a href="https://github.com/">Github 官网</a>，点击右上角的 Sign Up 按钮进入注册页面。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BF%9B%E5%85%A5%E6%B3%A8%E5%86%8C%E9%A1%B5%E9%9D%A2.png" alt="进入注册页面"></li>
+<li>进入注册页面，填写好相关信息后，点击 Create Account 按钮。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%BC%80%E5%A7%8B%E6%B3%A8%E5%86%8C.png" alt="开始注册">如果没有邮箱，可以看我之前的教程 <a href="https://brokentheboy123.github.io/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/">如何注册一个邮箱？| BROKENTheBoy</a></li>
+<li>在新进入的页面中输入邮箱中发送来的验证码，等待网页自动跳转，一个 Github 账号就注册好了！<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E9%AA%8C%E8%AF%81%E7%A0%81.png" alt="验证码"></li>
+</ol>
+<h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><ol>
+<li>进入 Github 主页面，点击右上角的加号，选择 New repository 进入创建仓库页面。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BF%9B%E5%85%A5%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2.png" alt="进入仓库页面"></li>
+<li>在 Repository Name 下方填写<code>Github用户名.github.io</code>，选择 Public，最后点击 Create Repository 创建仓库，仓库就创建好了！<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="创建仓库"></li>
+</ol>
+<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><ol>
+<li>在命令行工具下右键，选择 在终端中打开，输入命令<code>npm install hexo-deployer-git --save</code>，等待完成。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6.png" alt="安装插件"></li>
+<li>打开网站配置文件，找到<code>deploy</code>下的内容，<code>type</code>填<code>git</code>，再在下面添加<code>repo:</code>，在<code>repo:</code>后面填写自己新创建的仓库地址，注意，仓库后无需加<code>.git</code>！在下面继续添加<code>branch:</code>，在<code>branch:</code>后面填写<code>main</code>（目前 Github 默认分支为<code>main</code>）。然后保存。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E9%85%8D%E7%BD%AEdeploy.png" alt="配置deploy"></li>
+<li>最后，在命令行工具中打开自己的博客根目录，输入命令<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令">运行途中如果要求用 Github 登录，请如实登录。这里我就不放图了，因为有一个大问题：<h3 id="新问题：-spawn-failed"><a href="#新问题：-spawn-failed" class="headerlink" title="新问题： spawn failed"></a>新问题： spawn failed</h3>如果出现了这个问题，可以使用网上的方法：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf .deploy_git/</span><br><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+如果依旧不行，那么估计是 ssh 没有与 Github 连接的缘故，我的电脑上 Git 已经与另外一个 Github 号连接了，因此无法演示，希望大家见谅！<a href="https://www.runoob.com/git/git-remote-repo.html">连接 Github 的方法</a> 在这个网站里！</li>
+</ol>
+<p>那么这期教程就到这里结束了，再见！另外，这四篇文章写下来，整个 Hexo+Github 制作博客教程也几乎完成了，在接下来的文章里我会教大家完善整个博客！</p>
+<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何创建一个邮箱？</title>
     <url>/blog/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/</url>
     <content><![CDATA[<p>大家好！这里是BROKENTheBoy，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
@@ -209,7 +246,7 @@
 <li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/WattToolkit.png" alt="Watt Toolkit"></li>
 </ol>
 <h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
-<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"></li>
+<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/blog/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
 </ol>
 ]]></content>
       <tags>
@@ -217,55 +254,9 @@
       </tags>
   </entry>
   <entry>
-    <title>使用 Hexo+Github 制作博客第四弹！部署 Hexo 博客</title>
-    <url>/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在前三片教程中，我们已经了解了 Hexo 博客的文件配置、基础命令、网站配置。但是，我们现在只局限于在本地服务器上看博客。今天，我们将要了解在 Github 上部署 Hexo 博客。让我们开始吧！</p>
-<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>Github 账号</li>
-<li>命令行工具</li>
-<li>Hexo</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="注册一个-Github-账号"><a href="#注册一个-Github-账号" class="headerlink" title="注册一个 Github 账号"></a>注册一个 Github 账号</h2><ol>
-<li>打开 <a href="https://github.com/">Github 官网</a>，点击右上角的 Sign Up 按钮进入注册页面。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BF%9B%E5%85%A5%E6%B3%A8%E5%86%8C%E9%A1%B5%E9%9D%A2.png" alt="进入注册页面"></li>
-<li>进入注册页面，填写好相关信息后，点击 Create Account 按钮。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%BC%80%E5%A7%8B%E6%B3%A8%E5%86%8C.png" alt="开始注册">如果没有邮箱，可以看我之前的教程 <a href="https://brokentheboy123.github.io/2022/12/13/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E9%82%AE%E7%AE%B1%EF%BC%9F/">如何注册一个邮箱？| BROKENTheBoy</a></li>
-<li>在新进入的页面中输入邮箱中发送来的验证码，等待网页自动跳转，一个 Github 账号就注册好了！<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E9%AA%8C%E8%AF%81%E7%A0%81.png" alt="验证码"></li>
-</ol>
-<h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><ol>
-<li>进入 Github 主页面，点击右上角的加号，选择 New repository 进入创建仓库页面。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BF%9B%E5%85%A5%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2.png" alt="进入仓库页面"></li>
-<li>在 Repository Name 下方填写<code>Github用户名.github.io</code>，选择 Public，最后点击 Create Repository 创建仓库，仓库就创建好了！<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="创建仓库"></li>
-</ol>
-<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><ol>
-<li>在命令行工具下右键，选择 在终端中打开，输入命令<code>npm install hexo-deployer-git --save</code>，等待完成。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6.png" alt="安装插件"></li>
-<li>打开网站配置文件，找到<code>deploy</code>下的内容，<code>type</code>填<code>git</code>，再在下面添加<code>repo:</code>，在<code>repo:</code>后面填写自己新创建的仓库地址，注意，仓库后无需加<code>.git</code>！在下面继续添加<code>branch:</code>，在<code>branch:</code>后面填写<code>main</code>（目前 Github 默认分支为<code>main</code>）。然后保存。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E9%85%8D%E7%BD%AEdeploy.png" alt="配置deploy"></li>
-<li>最后，在命令行工具中打开自己的博客根目录，输入命令<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>。<img src="/blog/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令">运行途中如果要求用 Github 登录，请如实登录。这里我就不放图了，因为有一个大问题：<h3 id="新问题：-spawn-failed"><a href="#新问题：-spawn-failed" class="headerlink" title="新问题： spawn failed"></a>新问题： spawn failed</h3>如果出现了这个问题，可以使用网上的方法：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf .deploy_git/</span><br><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-如果依旧不行，那么估计是 ssh 没有与 Github 连接的缘故，我的电脑上 Git 已经与另外一个 Github 号连接了，因此无法演示，希望大家见谅！<a href="https://www.runoob.com/git/git-remote-repo.html">连接 Github 的方法</a> 在这个网站里！</li>
-</ol>
-<p>那么这期教程就到这里结束了，再见！另外，这四篇文章写下来，整个 Hexo+Github 制作博客教程也几乎完成了，在接下来的文章里我会教大家完善整个博客！</p>
-<p>教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
-]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>博客</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>废了废了。。。。</title>
     <url>/blog/2022/12/26/%E5%BA%9F%E4%BA%86%E5%BA%9F%E4%BA%86%E3%80%82%E3%80%82%E3%80%82%E3%80%82/</url>
     <content><![CDATA[<p>还是鸽算了。。。。。。。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>明天就要期末考试了。。。</title>
-    <url>/blog/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
-    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -285,5 +276,14 @@
     <url>/blog/2022/12/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%E4%B8%8A%E7%9A%84%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h1 id="Hi-I’m-BROKENTheBoy"><a href="#Hi-I’m-BROKENTheBoy" class="headerlink" title="Hi, I’m BROKENTheBoy!"></a>Hi, I’m BROKENTheBoy!</h1><p>嗨，大家好！我是B站UP主BROKENTheBoy!欢迎来到我的博客！<br>接下来我将会在一段时间内将一些琐碎的教程发到博客上，B站上不发<del>（因为电脑配置不行）</del>，请大家见谅！</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>明天就要期末考试了。。。</title>
+    <url>/blog/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
+    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
   </entry>
 </search>
