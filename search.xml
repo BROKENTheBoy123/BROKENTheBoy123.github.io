@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/12/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2022/12/04/test/</url>
     <content><![CDATA[<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
@@ -85,7 +67,6 @@
         <tag>Hexo</tag>
         <tag>Github</tag>
         <tag>博客</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -165,6 +146,60 @@
       </tags>
   </entry>
   <entry>
+    <title>废了废了。。。。</title>
+    <url>/2022/12/26/%E5%BA%9F%E4%BA%86%E5%BA%9F%E4%BA%86%E3%80%82%E3%80%82%E3%80%82%E3%80%82/</url>
+    <content><![CDATA[<p>还是鸽算了。。。。。。。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/12/26/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐几个工具，Github 使用体验直线上升！</title>
+    <url>/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
+<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
+<li>解决限流问题：<ul>
+<li>FastGithub</li>
+<li>Watt Toolkit</li>
+</ul>
+</li>
+<li>日常写代码问题：<ul>
+<li>Visual Studio Code</li>
+</ul>
+</li>
+</ol>
+<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
+<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/FastGithub.png" alt="FastGithub"></li>
+<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/WattToolkit.png" alt="Watt Toolkit"></li>
+</ol>
+<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
+<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>推荐软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用 Hexo+Github 制作博客第四弹！部署 Hexo 博客</title>
     <url>/2022/12/29/%E4%BD%BF%E7%94%A8-Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E7%AC%AC%E5%9B%9B%E5%BC%B9%EF%BC%81%E9%83%A8%E7%BD%B2-Hexo-%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在前三片教程中，我们已经了解了 Hexo 博客的文件配置、基础命令、网站配置。但是，我们现在只局限于在本地服务器上看博客。今天，我们将要了解在 Github 上部署 Hexo 博客。让我们开始吧！</p>
@@ -202,9 +237,9 @@
       </tags>
   </entry>
   <entry>
-    <title>废了废了。。。。</title>
-    <url>/2022/12/26/%E5%BA%9F%E4%BA%86%E5%BA%9F%E4%BA%86%E3%80%82%E3%80%82%E3%80%82%E3%80%82/</url>
-    <content><![CDATA[<p>还是鸽算了。。。。。。。</p>
+    <title>明天就要期末考试了。。。</title>
+    <url>/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
+    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -236,45 +271,9 @@
       </tags>
   </entry>
   <entry>
-    <title>推荐几个工具，Github 使用体验直线上升！</title>
-    <url>/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
-<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
-<li>解决限流问题：<ul>
-<li>FastGithub</li>
-<li>Watt Toolkit</li>
-</ul>
-</li>
-<li>日常写代码问题：<ul>
-<li>Visual Studio Code</li>
-</ul>
-</li>
-</ol>
-<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
-<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/FastGithub.png" alt="FastGithub"></li>
-<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/WattToolkit.png" alt="Watt Toolkit"></li>
-</ol>
-<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
-<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AA%E5%B7%A5%E5%85%B7%EF%BC%8CGithub-%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87%EF%BC%81/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>推荐软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>祝大家新年快乐！</title>
     <url>/2022/12/31/%E7%A5%9D%E5%A4%A7%E5%AE%B6%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%EF%BC%81/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy。在这里祝大家新年快乐！祝大家在新的一年里岁岁平安，安居乐业，业和邦兴，兴旺发达，大吉大利，力争上游！</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>明天就要期末考试了。。。</title>
-    <url>/2022/12/19/%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E4%BA%86%E3%80%82%E3%80%82%E3%80%82/</url>
-    <content><![CDATA[<p>大家好！这里是BROKENTheBoy。我们学校明天就要期末考试了，在寒假里我有大把的时间写博客，我会保证1周里至少更新1篇文章！</p>
 ]]></content>
       <categories>
         <category>日常</category>
