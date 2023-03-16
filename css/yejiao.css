@@ -4,6 +4,7 @@ div#runtime {
     padding: 0 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.7);
+    margin:0 auto;
 }
 
 [data-theme="dark"] div#runtime {
