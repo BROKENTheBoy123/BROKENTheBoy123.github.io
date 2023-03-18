@@ -6,7 +6,7 @@
   <link href="http://www.brokentheboy.top/atom.xml" rel="self"/>
   
   <link href="http://www.brokentheboy.top/"/>
-  <updated>2023-02-19T08:51:11.633Z</updated>
+  <updated>2023-03-18T14:51:34.796Z</updated>
   <id>http://www.brokentheboy.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023年3月18日日常</title>
+    <link href="http://www.brokentheboy.top/2023/03/18/diary-2023-3-18/"/>
+    <id>http://www.brokentheboy.top/2023/03/18/diary-2023-3-18/</id>
+    <published>2023-03-18T14:46:56.000Z</published>
+    <updated>2023-03-18T14:51:34.796Z</updated>
+    
+    <content type="html"><![CDATA[<p>艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的<del>（毕竟是一级）</del>。<br>悲伤！今天连续上了两节奥数课，补课的一节，艹！<br>大草！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的&lt;del&gt;（毕竟是一级）&lt;/del&gt;。&lt;br&gt;悲伤！今天连续上了两节奥数课，补课的一节，艹！&lt;br&gt;大
+        
+      
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="http://www.brokentheboy.top/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>无所谓，服务器会出手：将 Hexo 博客搭载到云服务器上</title>
