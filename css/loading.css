@@ -1,4 +1,8 @@
 .loading-img {
     background: url(/img/avatar.gif) no-repeat center center;
     background-size: cover;
-  }
+}
+/* loading背景 */
+.loading-bg, #loading-box .loading-left-bg, #loading-box .loading-right-bg{
+  background-color: #3f3f3f;
+}
