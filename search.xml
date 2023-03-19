@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>随时随地阅读文章：在 Hexo 中添加 RSS 订阅源</title>
-    <url>/2023/03/18/add-rss-in-hexo/</url>
-    <content><![CDATA[<blockquote>
-<p>使用 RSS 订阅能更快地获取信息，网站提供 RSS 输出，有利于让用户获取网站内容的最新更新。 ——百度百科</p>
-</blockquote>
-<p>RSS 订阅源是个好东西，它能使你更快更高效的获取信息。那么现在的 Hexo 博客中是否也能添加 RSS 订阅源功能呢？<em><strong>注：此文是在作者 Ordis 的文章上进行优化。<a href="https://imbhj.com/c2535796/">原文链接</a></strong></em></p>
-<h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
-<li>Node.js</li>
-<li>Hexo</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>已经有 npm 插件可以对 Hexo 博客进行添加 RSS 订阅源的操作。在命令行中运行代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
-<h2 id="配置-RSS-订阅源"><a href="#配置-RSS-订阅源" class="headerlink" title="配置 RSS 订阅源"></a>配置 RSS 订阅源</h2><ol>
-<li>首先打开博客配置文件（[博客源代码地址]&#x2F;_config.yml），找到 <code># Extensions</code>，在下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span> <span class="string">hexo-generator-feed</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%811.png" alt="添加代码"></li>
-<li>在博客配置文件最下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">./source/rss/atom.xml</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%812.png" alt="添加代码"></li>
-<li>打开主题配置文件（[博客源代码地址]&#x2F;themes&#x2F;butterfly&#x2F;_config.yml），在 <code>menu:</code> 下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%813.png" alt="添加代码"></li>
-<li>进行 Hexo 三连，部署后即可通过此 RSS 订阅源地址阅读文章！</li>
-</ol>
-<h1 id="如何进行-RSS-阅读（附带）"><a href="#如何进行-RSS-阅读（附带）" class="headerlink" title="如何进行 RSS 阅读（附带）"></a>如何进行 RSS 阅读（附带）</h1><ol>
-<li>首先寻找一款适合自己的 RSS 阅读器。此文章以 Fluent Reader 进行演示。</li>
-<li>打开 RSS 阅读器，点击右上角的设置按钮，进入设置页面。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE.png" alt="进入设置"></li>
-<li>在订阅源选项卡下找到添加订阅源，在输入框中输入自己的 RSS 订阅源地址（即 <code>网站域名/atom.xml</code>）。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BE%93%E5%85%A5URL.png" alt="输入URL"></li>
-<li>接下来进行愉快的 RSS 阅读吧！</li>
-</ol>
-<p>如文章中有错误请在评论指出！<br>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
-]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>RSS</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023年3月18日日常</title>
     <url>/2023/03/18/diary-2023-3-18/</url>
     <content><![CDATA[<p>艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的<del>（毕竟是一级）</del>。<br>悲伤！今天连续上了两节奥数课，补课的一节，艹！<br>大草！</p>
@@ -48,54 +10,69 @@
       </categories>
   </entry>
   <entry>
-    <title>推荐几个工具，Github 使用体验直线上升！</title>
-    <url>/2023/01/01/github-tools/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
-<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
-<li>解决限流问题：<ul>
-<li>FastGithub</li>
-<li>Watt Toolkit</li>
-</ul>
-</li>
-<li>日常写代码问题：<ul>
-<li>Visual Studio Code</li>
-</ul>
-</li>
-</ol>
-<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
-<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/github-tools/FastGithub.png" alt="FastGithub"></li>
-<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/github-tools/WattToolkit.png" alt="Watt Toolkit"></li>
-</ol>
-<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
-<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/github-tools/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>推荐软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
-    <url>/2022/12/18/hexo-and-github-1/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
+    <title>使用 Hexo+Github 制作博客第二弹！Hexo 基础命令</title>
+    <url>/2022/12/27/hexo-and-github-2/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩！欢迎大家来到这篇文章！这一片教程将要教会大家 Hexo 中的基础命令！还等什么呢？让我们开始吧！</p>
 <h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>Git 或 Node.js</li>
+<li>命令行工具</li>
+<li>Hexo</li>
 </ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><ol>
-<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接打开 <a href="https://nodejs.org/zh-cn/download/">Node.js 官网</a> 进行下载，具体下载步骤如下：</li>
-<li>进入官网，由于此处我用的是 Windows 系统，安装的是Windows 安装包，其他系统请自行下载<img src="/2022/12/18/hexo-and-github-1/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85.png" alt="下载安装包">。<em>P.S 此处我已经安装过了 Node.js ,此处不安装了</em></li>
-<li>如果没有梯子，就先找到目前 Node.js 的长期维护版最新版本，再打开 <a href="https://registry.npmmirror.com/binary.html?path=node/">淘宝 Node.js 镜像</a> ，找到此版本，接着选择适合自己的系统版本进行安装。<img src="/2022/12/18/hexo-and-github-1/%E6%89%BE%E5%88%B0%E7%89%88%E6%9C%AC.png" alt="找到系统版本"></li>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><ol>
+<li><p>新建网站命令：<code>hexo init [folder]</code>。其中<code>[folder]</code>指要将创造的网站存放到哪个网站，如果没有说明<code>[folder]</code>，hexo 将会默认在本文件夹创建网站。<img src="/2022/12/27/hexo-and-github-2/%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99.png" alt="创建网站"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C1.png" alt="完成效果1">  </p>
+</li>
+<li><p>新文章命令：<code>hexo new [layout] &lt;title&gt;</code>。其中<code>[layout]</code>代表布局，即此文章所保存在的文件夹。在 Hexo 中，有三种默认布局：</p>
+<table>
+<thead>
+<tr>
+<th>布局</th>
+<th>路径</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>post</code></td>
+<td><code>source/_post</code></td>
+</tr>
+<tr>
+<td><code>page</code></td>
+<td><code>source</code></td>
+</tr>
+<tr>
+<td><code>draft</code></td>
+<td><code>source/_drafts</code></td>
+</tr>
+</tbody></table>
+<p> 这些不同布局分别代表了文章将被保存到的位置。如果输入的<code>[layout]</code>不属于这三种默认布局，则 Hexo 将会把文章保存到指定的文件夹（即<code>[layout]</code>为<code>post</code>）。注意，<code>page</code>是将文章保存到<code>source/文章标题</code>位置！<br> <code>&lt;title&gt;</code>代表文章的标题，当你的标题中不含有空格时，则可以直接输入。当你的标题中含有空格时，则请输入引号。<br> 在此命令中，还可使用以下参数：</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-p</code>,<code>--path</code></td>
+<td>自定义新文章的路径</td>
+</tr>
+<tr>
+<td><code>-r</code>,<code>--replace</code></td>
+<td>如果存在同名文章，将其替换</td>
+</tr>
+<tr>
+<td><code>-s</code>,<code>--slug</code></td>
+<td>文章的 Slug，作为新文章的文件名和发布后的 URL</td>
+</tr>
+</tbody></table>
+<p> 参数一定要在<code>hexo new</code>之后任意一个位置输入！如<code>hexo new -p about/me &quot;About Me&quot;</code>与 <code>hexo new &quot;About Me&quot; -p about/me</code>效果相同。<br> 在这些参数中，由于官方文档并未详细描述后两个参数的使用方式，我也不知道这些参数的使用方式，望知道的人在本文底下的评论中补充！<br> <code>-p</code>,<code>--path</code>可以与上面的布局嵌套，也可以不。如<code>hexo new -p about/me &quot;About Me&quot;</code>则代表在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。<code>hexo new page -p about/me &quot;About Me&quot;</code>则代表在<code>source/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。<br> 注意，标题必须指定！比如以下两个代码:<code>hexo new page -p about/me &quot;About Me”</code>与<code>hexo new page -p about/me</code>，其中第一个的效果是在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。第二个的效果是在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，title 为 page。<img src="/2022/12/27/hexo-and-github-2/%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0.png" alt="新建文章"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C2.png" alt="完成效果">  </p>
+</li>
+<li><p>生成静态文件：<code>hexo generate</code>或<code>hexo g</code>。举个例子，刚刚创建的文件是给自己看的，运行了这个命令就生成了给大家看的文件。<img src="/2022/12/27/hexo-and-github-2/%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6.png" alt="生成静态文件"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C3.png" alt="完成效果">  </p>
+</li>
+<li><p>启动服务器：<code>hexo server</code>或<code>hexo s</code>。这个命令就是在本地服务器上运行网站，默认地址为<code>localhost:4000</code>。在启动服务器前请先运行<code>hexo generate</code>或<code>hexo g</code>！<img src="/2022/12/27/hexo-and-github-2/%E7%94%9F%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8.png" alt="生成服务器"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C4.png" alt="完成效果">  </p>
+</li>
+<li><p>部署网站：<code>hexo deploy</code>或<code>hexo d</code>。在第四篇教程中我会详细介绍这个命令。  </p>
+</li>
+<li><p>清楚缓存与静态文件：<code>hexo clean</code>。建议大家在每次生成静态文件之前都运行一次此命令！<img src="/2022/12/27/hexo-and-github-2/%E6%B8%85%E7%90%86%E6%96%87%E4%BB%B6.png" alt="清理文件"><img src="/2022/12/27/hexo-and-github-2/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C5.png" alt="完成效果5"><br>在本次教程中，我只介绍了六个基础命令。如果想了解其他命令，请进入 <a href="https://hexo.io/zh-cn/docs/commands">指令 | Hexo</a>。那么本次教程结束了，欢迎大家学习！</p>
+</li>
 </ol>
-<h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><ol>
-<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接进入 <a href="https://git-scm.com/download/win">Git 官网</a> 进行下载，具体下载步骤如下：</li>
-<li>进入官网，此处我使用的是 Windows 系统，安装的是 Windows 安装包。其他系统请自行下载！<img src="/2022/12/18/hexo-and-github-1/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC.png" alt="选择版本"></li>
-<li>如果没有梯子，就先找到目前 Git 的长期维护版最新版本，再打开 <a href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git 镜像</a> ，找到此版本，接着选择适合自己的系统进行安装。<img src="/2022/12/18/hexo-and-github-1/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC2.png" alt="选择版本2"></li>
-</ol>
-<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><ol>
-<li>打开 CMD（或其他命令提示符），输入以下指令 <code>npm install -g hexo-cli</code>，等待安装。<img src="/2022/12/18/hexo-and-github-1/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令"></li>
-<li>创建一个你想用来存放博客的文件夹，在 CMD（或其他命令提示符）中打开它，输入命令 <code>hexo init</code> 然后静静等待就OK了。<img src="/2022/12/18/hexo-and-github-1/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A42.png" alt="输入命令"></li>
-</ol>
-<p>那么本期教程就结束了！感谢大家学习！</p>
 <p>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
 ]]></content>
       <categories>
@@ -178,94 +155,27 @@
       </tags>
   </entry>
   <entry>
-    <title>如何创建一个邮箱？</title>
-    <url>/2022/12/13/how-to-create-a-mail/</url>
-    <content><![CDATA[<p>大家好！这里是破烂男孩，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
-<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
-<li>浏览器</li>
-</ol>
-<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
-<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/how-to-create-a-mail/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/how-to-create-a-mail/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
-<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/how-to-create-a-mail/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
-<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
-<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
-<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
-<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/how-to-create-a-mail/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
-<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
-</ol>
-]]></content>
-      <categories>
-        <category>琐碎教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>邮箱</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用 Hexo+Github 制作博客第二弹！Hexo 基础命令</title>
-    <url>/2022/12/27/hexo-and-github-2/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩！欢迎大家来到这篇文章！这一片教程将要教会大家 Hexo 中的基础命令！还等什么呢？让我们开始吧！</p>
+    <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
+    <url>/2022/12/18/hexo-and-github-1/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
 <h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>命令行工具</li>
-<li>Hexo</li>
+<li>Git 或 Node.js</li>
 </ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><ol>
-<li><p>新建网站命令：<code>hexo init [folder]</code>。其中<code>[folder]</code>指要将创造的网站存放到哪个网站，如果没有说明<code>[folder]</code>，hexo 将会默认在本文件夹创建网站。<img src="/2022/12/27/hexo-and-github-2/%E5%88%9B%E5%BB%BA%E7%BD%91%E7%AB%99.png" alt="创建网站"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C1.png" alt="完成效果1">  </p>
-</li>
-<li><p>新文章命令：<code>hexo new [layout] &lt;title&gt;</code>。其中<code>[layout]</code>代表布局，即此文章所保存在的文件夹。在 Hexo 中，有三种默认布局：</p>
-<table>
-<thead>
-<tr>
-<th>布局</th>
-<th>路径</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>post</code></td>
-<td><code>source/_post</code></td>
-</tr>
-<tr>
-<td><code>page</code></td>
-<td><code>source</code></td>
-</tr>
-<tr>
-<td><code>draft</code></td>
-<td><code>source/_drafts</code></td>
-</tr>
-</tbody></table>
-<p> 这些不同布局分别代表了文章将被保存到的位置。如果输入的<code>[layout]</code>不属于这三种默认布局，则 Hexo 将会把文章保存到指定的文件夹（即<code>[layout]</code>为<code>post</code>）。注意，<code>page</code>是将文章保存到<code>source/文章标题</code>位置！<br> <code>&lt;title&gt;</code>代表文章的标题，当你的标题中不含有空格时，则可以直接输入。当你的标题中含有空格时，则请输入引号。<br> 在此命令中，还可使用以下参数：</p>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>-p</code>,<code>--path</code></td>
-<td>自定义新文章的路径</td>
-</tr>
-<tr>
-<td><code>-r</code>,<code>--replace</code></td>
-<td>如果存在同名文章，将其替换</td>
-</tr>
-<tr>
-<td><code>-s</code>,<code>--slug</code></td>
-<td>文章的 Slug，作为新文章的文件名和发布后的 URL</td>
-</tr>
-</tbody></table>
-<p> 参数一定要在<code>hexo new</code>之后任意一个位置输入！如<code>hexo new -p about/me &quot;About Me&quot;</code>与 <code>hexo new &quot;About Me&quot; -p about/me</code>效果相同。<br> 在这些参数中，由于官方文档并未详细描述后两个参数的使用方式，我也不知道这些参数的使用方式，望知道的人在本文底下的评论中补充！<br> <code>-p</code>,<code>--path</code>可以与上面的布局嵌套，也可以不。如<code>hexo new -p about/me &quot;About Me&quot;</code>则代表在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。<code>hexo new page -p about/me &quot;About Me&quot;</code>则代表在<code>source/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。<br> 注意，标题必须指定！比如以下两个代码:<code>hexo new page -p about/me &quot;About Me”</code>与<code>hexo new page -p about/me</code>，其中第一个的效果是在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，<code>title</code> 为 About Me。第二个的效果是在<code>source/_posts/about</code>下创建文件<code>me.md</code>，在<code>me.md</code>的 Front-matter 中，title 为 page。<img src="/2022/12/27/hexo-and-github-2/%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0.png" alt="新建文章"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C2.png" alt="完成效果">  </p>
-</li>
-<li><p>生成静态文件：<code>hexo generate</code>或<code>hexo g</code>。举个例子，刚刚创建的文件是给自己看的，运行了这个命令就生成了给大家看的文件。<img src="/2022/12/27/hexo-and-github-2/%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6.png" alt="生成静态文件"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C3.png" alt="完成效果">  </p>
-</li>
-<li><p>启动服务器：<code>hexo server</code>或<code>hexo s</code>。这个命令就是在本地服务器上运行网站，默认地址为<code>localhost:4000</code>。在启动服务器前请先运行<code>hexo generate</code>或<code>hexo g</code>！<img src="/2022/12/27/hexo-and-github-2/%E7%94%9F%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8.png" alt="生成服务器"><img src="/2022/12/27/hexo-and-github-2/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C4.png" alt="完成效果">  </p>
-</li>
-<li><p>部署网站：<code>hexo deploy</code>或<code>hexo d</code>。在第四篇教程中我会详细介绍这个命令。  </p>
-</li>
-<li><p>清楚缓存与静态文件：<code>hexo clean</code>。建议大家在每次生成静态文件之前都运行一次此命令！<img src="/2022/12/27/hexo-and-github-2/%E6%B8%85%E7%90%86%E6%96%87%E4%BB%B6.png" alt="清理文件"><img src="/2022/12/27/hexo-and-github-2/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C5.png" alt="完成效果5"><br>在本次教程中，我只介绍了六个基础命令。如果想了解其他命令，请进入 <a href="https://hexo.io/zh-cn/docs/commands">指令 | Hexo</a>。那么本次教程结束了，欢迎大家学习！</p>
-</li>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><ol>
+<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接打开 <a href="https://nodejs.org/zh-cn/download/">Node.js 官网</a> 进行下载，具体下载步骤如下：</li>
+<li>进入官网，由于此处我用的是 Windows 系统，安装的是Windows 安装包，其他系统请自行下载<img src="/2022/12/18/hexo-and-github-1/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85.png" alt="下载安装包">。<em>P.S 此处我已经安装过了 Node.js ,此处不安装了</em></li>
+<li>如果没有梯子，就先找到目前 Node.js 的长期维护版最新版本，再打开 <a href="https://registry.npmmirror.com/binary.html?path=node/">淘宝 Node.js 镜像</a> ，找到此版本，接着选择适合自己的系统版本进行安装。<img src="/2022/12/18/hexo-and-github-1/%E6%89%BE%E5%88%B0%E7%89%88%E6%9C%AC.png" alt="找到系统版本"></li>
 </ol>
+<h2 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h2><ol>
+<li>（没有梯子的人直接跳到第三步）如果有梯子的人可以直接进入 <a href="https://git-scm.com/download/win">Git 官网</a> 进行下载，具体下载步骤如下：</li>
+<li>进入官网，此处我使用的是 Windows 系统，安装的是 Windows 安装包。其他系统请自行下载！<img src="/2022/12/18/hexo-and-github-1/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC.png" alt="选择版本"></li>
+<li>如果没有梯子，就先找到目前 Git 的长期维护版最新版本，再打开 <a href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git 镜像</a> ，找到此版本，接着选择适合自己的系统进行安装。<img src="/2022/12/18/hexo-and-github-1/%E9%80%89%E6%8B%A9%E7%89%88%E6%9C%AC2.png" alt="选择版本2"></li>
+</ol>
+<h2 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h2><ol>
+<li>打开 CMD（或其他命令提示符），输入以下指令 <code>npm install -g hexo-cli</code>，等待安装。<img src="/2022/12/18/hexo-and-github-1/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4.png" alt="输入命令"></li>
+<li>创建一个你想用来存放博客的文件夹，在 CMD（或其他命令提示符）中打开它，输入命令 <code>hexo init</code> 然后静静等待就OK了。<img src="/2022/12/18/hexo-and-github-1/%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A42.png" alt="输入命令"></li>
+</ol>
+<p>那么本期教程就结束了！感谢大家学习！</p>
 <p>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
 ]]></content>
       <categories>
@@ -306,6 +216,96 @@
 ]]></content>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随时随地阅读文章：在 Hexo 中添加 RSS 订阅源</title>
+    <url>/2023/03/18/add-rss-in-hexo/</url>
+    <content><![CDATA[<blockquote>
+<p>使用 RSS 订阅能更快地获取信息，网站提供 RSS 输出，有利于让用户获取网站内容的最新更新。 ——百度百科</p>
+</blockquote>
+<p>RSS 订阅源是个好东西，它能使你更快更高效的获取信息。那么现在的 Hexo 博客中是否也能添加 RSS 订阅源功能呢？<em><strong>注：此文是在作者 Ordis 的文章上进行优化。<a href="https://imbhj.com/c2535796/">原文链接</a></strong></em></p>
+<h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
+<li>Node.js</li>
+<li>Hexo</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>已经有 npm 插件可以对 Hexo 博客进行添加 RSS 订阅源的操作。在命令行中运行代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
+<h2 id="配置-RSS-订阅源"><a href="#配置-RSS-订阅源" class="headerlink" title="配置 RSS 订阅源"></a>配置 RSS 订阅源</h2><ol>
+<li>首先打开博客配置文件（[博客源代码地址]&#x2F;_config.yml），找到 <code># Extensions</code>，在下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span> <span class="string">hexo-generator-feed</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%811.png" alt="添加代码"></li>
+<li>在博客配置文件最下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">./source/rss/atom.xml</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%812.png" alt="添加代码"></li>
+<li>打开主题配置文件（[博客源代码地址]&#x2F;themes&#x2F;butterfly&#x2F;_config.yml），在 <code>menu:</code> 下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%813.png" alt="添加代码"></li>
+<li>进行 Hexo 三连，部署后即可通过此 RSS 订阅源地址阅读文章！</li>
+</ol>
+<h1 id="如何进行-RSS-阅读（附带）"><a href="#如何进行-RSS-阅读（附带）" class="headerlink" title="如何进行 RSS 阅读（附带）"></a>如何进行 RSS 阅读（附带）</h1><ol>
+<li>首先寻找一款适合自己的 RSS 阅读器。此文章以 Fluent Reader 进行演示。</li>
+<li>打开 RSS 阅读器，点击右上角的设置按钮，进入设置页面。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE.png" alt="进入设置"></li>
+<li>在订阅源选项卡下找到添加订阅源，在输入框中输入自己的 RSS 订阅源地址（即 <code>网站域名/atom.xml</code>）。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BE%93%E5%85%A5URL.png" alt="输入URL"></li>
+<li>接下来进行愉快的 RSS 阅读吧！</li>
+</ol>
+<p>如文章中有错误请在评论指出！<br>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐几个工具，Github 使用体验直线上升！</title>
+    <url>/2023/01/01/github-tools/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
+<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
+<li>解决限流问题：<ul>
+<li>FastGithub</li>
+<li>Watt Toolkit</li>
+</ul>
+</li>
+<li>日常写代码问题：<ul>
+<li>Visual Studio Code</li>
+</ul>
+</li>
+</ol>
+<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
+<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/github-tools/FastGithub.png" alt="FastGithub"></li>
+<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/github-tools/WattToolkit.png" alt="Watt Toolkit"></li>
+</ol>
+<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
+<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/github-tools/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>推荐软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何创建一个邮箱？</title>
+    <url>/2022/12/13/how-to-create-a-mail/</url>
+    <content><![CDATA[<p>大家好！这里是破烂男孩，今天我来教大家如何创建一个属于自己的邮箱。（这本来是一位同学要求我做的，为了<del>保住面子</del>不伤害友谊，我就做了这篇文章）</p>
+<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ol>
+<li>浏览器</li>
+</ol>
+<h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h2><ol>
+<li>打开网站（<a href="https://outlook.live.com/">Outlook 邮箱</a>），进入页面，然后点击“创建免费用户”按钮进入注册页面。<img src="/2022/12/13/how-to-create-a-mail/%E8%BF%9B%E5%85%A5%E7%BD%91%E9%A1%B5.png" alt="进入页面"><br>（若出现下图页面，点击“同意并继续”。）<br><img src="/2022/12/13/how-to-create-a-mail/%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2.png" alt="特殊页面"></li>
+<li>在新出现的页面中创建邮箱。注：邮箱域名有两种选择，请根据自己需求设置。填写完点击“下一步”。<img src="/2022/12/13/how-to-create-a-mail/%E5%88%9B%E5%BB%BA%E9%82%AE%E7%AE%B1.png" alt="创建邮箱"></li>
+<li>在新出现的页面中填写密码，填写完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81.png" alt="填写密码"></li>
+<li>在新出现的页面中填写信息，填写完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AFr1.png" alt="填写信息"><img src="/2022/12/13/how-to-create-a-mail/%E5%A1%AB%E5%86%99%E4%BF%A1%E6%81%AF2.png" alt="填写信息2"></li>
+<li>证明“我是人类”，证明完点击下一步。<img src="/2022/12/13/how-to-create-a-mail/%E8%AF%81%E6%98%8E.png" alt="证明"></li>
+<li>在新出现的页面中根据需求选择是或否。<img src="/2022/12/13/how-to-create-a-mail/%E6%A0%B9%E6%8D%AE%E9%9C%80%E6%B1%82%E9%80%89%E6%8B%A9.png" alt="选择"></li>
+<li>等待一会儿，快乐使用邮箱！<br>现在做完教程突然感觉同学鸡肋，自己随便网上找一篇教程就OK了吧？</li>
+</ol>
+]]></content>
+      <categories>
+        <category>琐碎教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>邮箱</tag>
       </tags>
   </entry>
   <entry>
