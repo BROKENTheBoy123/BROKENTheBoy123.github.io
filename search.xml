@@ -109,66 +109,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
-    <url>/2022/12/29/hexo-and-github-3/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
-<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
-<li>命令行工具</li>
-<li>Hexo</li>
-</ol>
-<h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="Hexo-的网站配置文件"><a href="#Hexo-的网站配置文件" class="headerlink" title="Hexo 的网站配置文件"></a>Hexo 的网站配置文件</h2><p>Hexo 的网站配置文件位于网站根目录下的_config.yml文件。</p>
-<h2 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h2><ol>
-<li>打开网站配置文件，在文件中找到位于<code># Site</code>下的各行代码（如图所示）。<img src="/2022/12/29/hexo-and-github-3/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png" alt="找到基础配置"></li>
-<li>其中<code>title</code>用来配置网站的标题与在网站上显示的名字，如果我将<code>title</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C1.png" alt="效果"></li>
-<li><code>subtitle</code>用来配置网站的副标题（网站名不改变，副标题在网站上显示的名字下），如果我将<code>subtitle</code>设为<code>&#39;blog&#39;</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C2.png" alt="效果"></li>
-<li><code>description</code>用来配置网站的描述，如果我将<code>description</code>设为<code>&#39;欢迎来到我的博客！&#39;</code>，在 Hexo 内置的主题中是显示不出来的，在一些主题中（比如说NexT）会显示出来。</li>
-<li><code>keywords</code>用来配置网站的关键词，如果我将<code>keywords</code>设为<code>blog</code>，在主题中是显示不出来的，在官方文档中有对<code>keywords</code>的模糊解释，大概是在搜索引擎上搜索设置的关键词，则会定位到这个网站（如果真是这样，请多设置一点关键词，让搜索引擎精确定位），希望有大佬在评论区解释！</li>
-<li><code>author</code>用来配置网站的作者名，如果我将<code>author</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C3.png" alt="效果"></li>
-<li><code>language</code>用来配置网站的语言，对于中国大陆用户来说，可使用<code>&#39;zh-Hans&#39;</code>或<code>&#39;zh-CN&#39;</code>。效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C4.png" alt="效果"></li>
-<li><code>timezone</code>用来配置网站的时区，Hexo 默认使用电脑上设置的时区——当然，你也可以手动设置，对于中国大陆用户来说，设为<code>&#39;Asia/Shanghai&#39;</code>。设置的时区可能与发布文章显示的时间有关，希望有大佬在评论区解释！<br>在这篇教程中，我介绍了基础的 Hexo 博客配置，更完全的可到 <a href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a> 了解！这次的教程就结束了，拜拜！</li>
-</ol>
-<p>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
-]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Github</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无所谓，服务器会出手：将 Hexo 博客搭载到云服务器上</title>
-    <url>/2023/02/15/hexo-to-your-server/</url>
-    <content><![CDATA[<p>在前四篇内容中，我们已经将 Hexo 博客搭载到了 Github Page 上。但 Github 被国内墙了，则你需要魔法才能正常浏览在 Github Page 上的网页。那有没有这样一种东西，Hexo 能够搭上去，并且国内能正常访问，操作也和平时一样？相信绝大多数人都想到了它——云服务器。那还等什么呢？教程开始！</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
-<li>云服务器（本篇教程使用腾讯云作参考，使用其他服务器基本操作相同）</li>
-<li>Hexo 博客</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="云服务器最初设置"><a href="#云服务器最初设置" class="headerlink" title="云服务器最初设置"></a>云服务器最初设置</h2><p>我这里使用的是腾讯云2核2G 4M的轻量应用服务器，其实对于个人博客来说，只需2核2G 1M就足够了（1核2G？），这个根据个人喜好判断。服务器搭载的系统是 Ubuntu<del>（为什么不放版本号？别问，问就是忘了）</del>。<br>腾讯云的服务器中 root 账户的登录是要修改文件的，并且还要重置一次 root 的密码，在这里我尽量控制篇幅（若是其它系统一些是默认 root 账户的，但如果不知道密码还是根据第一步重置或是在服务器管理界面进行重置）。但是腾讯云是可以直接无密码登录账户的。因此若你是通过 Xshell 这类远程连接软件可以详细读一下这篇文章。</p>
-<ol>
-<li>使用任意账户登录服务器。执行命令设置 root 密码。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure></li>
-<li>重复输入两次新的密码，密码是隐藏的。</li>
-<li>执行命令打开配置文件。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure></li>
-<li>按下键盘上的i键进入编辑模式，找到<code># Authentication:</code>，如果<code>PermitRootLogin</code>参数被注释了，就去掉井号。将<code>PermitRootLogin</code>设为<code>yes</code>。</li>
-<li>按下键盘上的Esc键，输入:wq，回车。</li>
-<li>执行命令重启 ssh 服务。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure>
-这样就可以通过 root 登陆了。</li>
-</ol>
-<h2 id="搭建-Hexo-博客"><a href="#搭建-Hexo-博客" class="headerlink" title="搭建 Hexo 博客"></a>搭建 Hexo 博客</h2><p>对不起，我认为这部分内容可以直接通过两篇文章解决。若是有什么问题出现可以向文章原作者询问或向我提问。</p>
-<ol>
-<li><a href="https://zhuanlan.zhihu.com/p/120743882">将hexo个人博客部署到个人云服务器–最详细踩坑教程</a></li>
-<li><a href="https://cloud.tencent.com/developer/article/1662792">Hexo进阶教程（四）| 部署Hexo到自己的服务器</a></li>
-</ol>
-<p>在这片文章中第一部分<del>抄袭</del>借鉴了腾讯云上的教程，<a href="https://cloud.tencent.com/document/product/213/17278">原地址</a>。</p>
-<p><em><strong>注：以后这个博客将会同时在云服务器上与 Github 上共同更新</strong></em></p>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用 Hexo+Github 制作博客第二弹！Hexo 基础命令</title>
     <url>/2022/12/27/hexo-and-github-2/</url>
     <content><![CDATA[<p>嗨，大家好！这里是破烂男孩！欢迎大家来到这篇文章！这一片教程将要教会大家 Hexo 中的基础命令！还等什么呢？让我们开始吧！</p>
@@ -245,6 +185,36 @@
       </tags>
   </entry>
   <entry>
+    <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
+    <url>/2022/12/29/hexo-and-github-3/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
+<h1 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h1><ol>
+<li>命令行工具</li>
+<li>Hexo</li>
+</ol>
+<h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="Hexo-的网站配置文件"><a href="#Hexo-的网站配置文件" class="headerlink" title="Hexo 的网站配置文件"></a>Hexo 的网站配置文件</h2><p>Hexo 的网站配置文件位于网站根目录下的_config.yml文件。</p>
+<h2 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h2><ol>
+<li>打开网站配置文件，在文件中找到位于<code># Site</code>下的各行代码（如图所示）。<img src="/2022/12/29/hexo-and-github-3/%E6%89%BE%E5%88%B0%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png" alt="找到基础配置"></li>
+<li>其中<code>title</code>用来配置网站的标题与在网站上显示的名字，如果我将<code>title</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C1.png" alt="效果"></li>
+<li><code>subtitle</code>用来配置网站的副标题（网站名不改变，副标题在网站上显示的名字下），如果我将<code>subtitle</code>设为<code>&#39;blog&#39;</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C2.png" alt="效果"></li>
+<li><code>description</code>用来配置网站的描述，如果我将<code>description</code>设为<code>&#39;欢迎来到我的博客！&#39;</code>，在 Hexo 内置的主题中是显示不出来的，在一些主题中（比如说NexT）会显示出来。</li>
+<li><code>keywords</code>用来配置网站的关键词，如果我将<code>keywords</code>设为<code>blog</code>，在主题中是显示不出来的，在官方文档中有对<code>keywords</code>的模糊解释，大概是在搜索引擎上搜索设置的关键词，则会定位到这个网站（如果真是这样，请多设置一点关键词，让搜索引擎精确定位），希望有大佬在评论区解释！</li>
+<li><code>author</code>用来配置网站的作者名，如果我将<code>author</code>设为<code>BROKENTheBoy</code>，效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C3.png" alt="效果"></li>
+<li><code>language</code>用来配置网站的语言，对于中国大陆用户来说，可使用<code>&#39;zh-Hans&#39;</code>或<code>&#39;zh-CN&#39;</code>。效果如图所示：<img src="/2022/12/29/hexo-and-github-3/%E6%95%88%E6%9E%9C4.png" alt="效果"></li>
+<li><code>timezone</code>用来配置网站的时区，Hexo 默认使用电脑上设置的时区——当然，你也可以手动设置，对于中国大陆用户来说，设为<code>&#39;Asia/Shanghai&#39;</code>。设置的时区可能与发布文章显示的时间有关，希望有大佬在评论区解释！<br>在这篇教程中，我介绍了基础的 Hexo 博客配置，更完全的可到 <a href="https://hexo.io/zh-cn/docs/configuration">配置 | Hexo</a> 了解！这次的教程就结束了，拜拜！</li>
+</ol>
+<p>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用 Hexo+Github 制作博客第四弹！部署 Hexo 博客</title>
     <url>/2022/12/29/hexo-and-github-4/</url>
     <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。在前三片教程中，我们已经了解了 Hexo 博客的文件配置、基础命令、网站配置。但是，我们现在只局限于在本地服务器上看博客。今天，我们将要了解在 Github 上部署 Hexo 博客。让我们开始吧！</p>
@@ -281,6 +251,36 @@
         <tag>Github</tag>
         <tag>博客</tag>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无所谓，服务器会出手：将 Hexo 博客搭载到云服务器上</title>
+    <url>/2023/02/15/hexo-to-your-server/</url>
+    <content><![CDATA[<p>在前四篇内容中，我们已经将 Hexo 博客搭载到了 Github Page 上。但 Github 被国内墙了，则你需要魔法才能正常浏览在 Github Page 上的网页。那有没有这样一种东西，Hexo 能够搭上去，并且国内能正常访问，操作也和平时一样？相信绝大多数人都想到了它——云服务器。那还等什么呢？教程开始！</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
+<li>云服务器（本篇教程使用腾讯云作参考，使用其他服务器基本操作相同）</li>
+<li>Hexo 博客</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="云服务器最初设置"><a href="#云服务器最初设置" class="headerlink" title="云服务器最初设置"></a>云服务器最初设置</h2><p>我这里使用的是腾讯云2核2G 4M的轻量应用服务器，其实对于个人博客来说，只需2核2G 1M就足够了（1核2G？），这个根据个人喜好判断。服务器搭载的系统是 Ubuntu<del>（为什么不放版本号？别问，问就是忘了）</del>。<br>腾讯云的服务器中 root 账户的登录是要修改文件的，并且还要重置一次 root 的密码，在这里我尽量控制篇幅（若是其它系统一些是默认 root 账户的，但如果不知道密码还是根据第一步重置或是在服务器管理界面进行重置）。但是腾讯云是可以直接无密码登录账户的。因此若你是通过 Xshell 这类远程连接软件可以详细读一下这篇文章。</p>
+<ol>
+<li>使用任意账户登录服务器。执行命令设置 root 密码。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure></li>
+<li>重复输入两次新的密码，密码是隐藏的。</li>
+<li>执行命令打开配置文件。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure></li>
+<li>按下键盘上的i键进入编辑模式，找到<code># Authentication:</code>，如果<code>PermitRootLogin</code>参数被注释了，就去掉井号。将<code>PermitRootLogin</code>设为<code>yes</code>。</li>
+<li>按下键盘上的Esc键，输入:wq，回车。</li>
+<li>执行命令重启 ssh 服务。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure>
+这样就可以通过 root 登陆了。</li>
+</ol>
+<h2 id="搭建-Hexo-博客"><a href="#搭建-Hexo-博客" class="headerlink" title="搭建 Hexo 博客"></a>搭建 Hexo 博客</h2><p>对不起，我认为这部分内容可以直接通过两篇文章解决。若是有什么问题出现可以向文章原作者询问或向我提问。</p>
+<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/120743882">将hexo个人博客部署到个人云服务器–最详细踩坑教程</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1662792">Hexo进阶教程（四）| 部署Hexo到自己的服务器</a></li>
+</ol>
+<p>在这片文章中第一部分<del>抄袭</del>借鉴了腾讯云上的教程，<a href="https://cloud.tencent.com/document/product/213/17278">原地址</a>。</p>
+<p><em><strong>注：以后这个博客将会同时在云服务器上与 Github 上共同更新</strong></em></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
