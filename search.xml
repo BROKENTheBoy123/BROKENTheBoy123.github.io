@@ -39,6 +39,15 @@
       </tags>
   </entry>
   <entry>
+    <title>2023年3月18日日常</title>
+    <url>/2023/03/18/diary-2023-3-18/</url>
+    <content><![CDATA[<p>艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的<del>（毕竟是一级）</del>。<br>悲伤！今天连续上了两节奥数课，补课的一节，艹！<br>大草！</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+  </entry>
+  <entry>
     <title>推荐几个工具，Github 使用体验直线上升！</title>
     <url>/2023/01/01/github-tools/</url>
     <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
@@ -64,15 +73,6 @@
       <tags>
         <tag>推荐软件</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>2023年3月18日日常</title>
-    <url>/2023/03/18/diary-2023-3-18/</url>
-    <content><![CDATA[<p>艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的<del>（毕竟是一级）</del>。<br>悲伤！今天连续上了两节奥数课，补课的一节，艹！<br>大草！</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
   </entry>
   <entry>
     <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
