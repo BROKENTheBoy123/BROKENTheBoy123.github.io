@@ -48,33 +48,6 @@
       </categories>
   </entry>
   <entry>
-    <title>推荐几个工具，Github 使用体验直线上升！</title>
-    <url>/2023/01/01/github-tools/</url>
-    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
-<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
-<li>解决限流问题：<ul>
-<li>FastGithub</li>
-<li>Watt Toolkit</li>
-</ul>
-</li>
-<li>日常写代码问题：<ul>
-<li>Visual Studio Code</li>
-</ul>
-</li>
-</ol>
-<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
-<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/github-tools/FastGithub.png" alt="FastGithub"></li>
-<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/github-tools/WattToolkit.png" alt="Watt Toolkit"></li>
-</ol>
-<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
-<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/github-tools/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>推荐软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用 Hexo+Github 制作博客第一弹！配置 Hexo 环境</title>
     <url>/2022/12/18/hexo-and-github-1/</url>
     <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。你现在所见到的网站就是我使用 Hexo+Github 制作起来的博客。这个标签是专门教大家如何使用 Hexo+Github 制作博客！这篇文章将要教大家如何配置 Hexo 的环境。Let’s Begin!</p>
@@ -251,6 +224,33 @@
         <tag>Github</tag>
         <tag>博客</tag>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐几个工具，Github 使用体验直线上升！</title>
+    <url>/2023/01/01/github-tools/</url>
+    <content><![CDATA[<p>嗨，大家好！这里是BROKENTheBoy，在这里先祝大家新年快乐！在使用 Hexo+Github 制作博客的教程中，有些人可能会因为国内对 Github 的限流而导致在进行<code>hexo d</code>的操作时无法部署的错误 <del>（虽然能打开这个网站的大多数人都能正常部署）</del>。那么今天这篇文章就向大家推荐几个软件，各能解决 Github 被限流问题与日常写代码的问题！还等什么呢？让我们开始吧！</p>
+<h1 id="今日推荐软件"><a href="#今日推荐软件" class="headerlink" title="今日推荐软件"></a>今日推荐软件</h1><ol>
+<li>解决限流问题：<ul>
+<li>FastGithub</li>
+<li>Watt Toolkit</li>
+</ul>
+</li>
+<li>日常写代码问题：<ul>
+<li>Visual Studio Code</li>
+</ul>
+</li>
+</ol>
+<h1 id="开始推荐"><a href="#开始推荐" class="headerlink" title="开始推荐"></a>开始推荐</h1><h2 id="解决限流问题"><a href="#解决限流问题" class="headerlink" title="解决限流问题"></a>解决限流问题</h2><ol>
+<li>FastGithub<br>FastGithub 是我现在常用的解决限流问题的软件。新版本的 FastGithub 拥有了 UI 界面，操作也十分简单，万分推荐！<br>同时，你还可以将 FastGithub 的主文件添加到服务中。<br><img src="/2023/01/01/github-tools/FastGithub.png" alt="FastGithub"></li>
+<li>Watt Toolkit (原 Steam++)<br>Watt Toolkit 即原来的 Steam++，虽说是用来辅助游戏的，但软件本身也自带对 Github 的加速功能！良心软件实锤！<br><img src="/2023/01/01/github-tools/WattToolkit.png" alt="Watt Toolkit"></li>
+</ol>
+<h2 id="日常写代码问题"><a href="#日常写代码问题" class="headerlink" title="日常写代码问题"></a>日常写代码问题</h2><ol>
+<li>平常写代码我就只有一个推荐：Visual Studio Code。这个软件为微软官方制作，软件本身可以支持多种编程语言，你可以通过添加扩展来完整体验这款编程软件的强大作用！<del>没有插件的 VSCode &#x3D; 裸奔</del><br>Visual Studio Code 对于 Git 及 Github 的支持也很好，Git 功能也是内置的，可以一键部署到 Github 仓库，但是 Hexo 使用一键部署插件的还是老老实实 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 吧。<del>个人觉得直接使用 Git 内置命令行好用</del><br><img src="/2023/01/01/github-tools/VisualStudioCode.png" alt="Visual Studio Code"><br>感谢大家查看这篇文章！</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>推荐软件</tag>
       </tags>
   </entry>
   <entry>
