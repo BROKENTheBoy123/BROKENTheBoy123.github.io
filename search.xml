@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>随时随地阅读文章：在 Hexo 中添加 RSS 订阅源</title>
+    <url>/2023/03/18/add-rss-in-hexo/</url>
+    <content><![CDATA[<blockquote>
+<p>使用 RSS 订阅能更快地获取信息，网站提供 RSS 输出，有利于让用户获取网站内容的最新更新。 ——百度百科</p>
+</blockquote>
+<p>RSS 订阅源是个好东西，它能使你更快更高效的获取信息。那么现在的 Hexo 博客中是否也能添加 RSS 订阅源功能呢？<em><strong>注：此文是在作者 Ordis 的文章上进行优化。<a href="https://imbhj.com/c2535796/">原文链接</a></strong></em></p>
+<h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
+<li>Node.js</li>
+<li>Hexo</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>已经有 npm 插件可以对 Hexo 博客进行添加 RSS 订阅源的操作。在命令行中运行代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
+<h2 id="配置-RSS-订阅源"><a href="#配置-RSS-订阅源" class="headerlink" title="配置 RSS 订阅源"></a>配置 RSS 订阅源</h2><ol>
+<li>首先打开博客配置文件（[博客源代码地址]&#x2F;_config.yml），找到 <code># Extensions</code>，在下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span> <span class="string">hexo-generator-feed</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%811.png" alt="添加代码"></li>
+<li>在博客配置文件最下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">./source/rss/atom.xml</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%812.png" alt="添加代码"></li>
+<li>打开主题配置文件（[博客源代码地址]&#x2F;themes&#x2F;butterfly&#x2F;_config.yml），在 <code>menu:</code> 下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
+<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%813.png" alt="添加代码"></li>
+<li>进行 Hexo 三连，部署后即可通过此 RSS 订阅源地址阅读文章！</li>
+</ol>
+<h1 id="如何进行-RSS-阅读（附带）"><a href="#如何进行-RSS-阅读（附带）" class="headerlink" title="如何进行 RSS 阅读（附带）"></a>如何进行 RSS 阅读（附带）</h1><ol>
+<li>首先寻找一款适合自己的 RSS 阅读器。此文章以 Fluent Reader 进行演示。</li>
+<li>打开 RSS 阅读器，点击右上角的设置按钮，进入设置页面。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE.png" alt="进入设置"></li>
+<li>在订阅源选项卡下找到添加订阅源，在输入框中输入自己的 RSS 订阅源地址（即 <code>网站域名/atom.xml</code>）。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BE%93%E5%85%A5URL.png" alt="输入URL"></li>
+<li>接下来进行愉快的 RSS 阅读吧！</li>
+</ol>
+<p>如文章中有错误请在评论指出！<br>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
+]]></content>
+      <categories>
+        <category>Hexo+Github 制作博客教程</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2023年3月18日日常</title>
     <url>/2023/03/18/diary-2023-3-18/</url>
     <content><![CDATA[<p>艹，今天去GESP编程考级，TMD做到一半有两道题中途改了，广播还不告诉我们，问老师老师不理，大草。同班有个人题没改，我告诉他时他整个人直接炸了。其实今天GESP还挺简单的<del>（毕竟是一级）</del>。<br>悲伤！今天连续上了两节奥数课，补课的一节，艹！<br>大草！</p>
@@ -147,44 +185,6 @@
       </tags>
   </entry>
   <entry>
-    <title>随时随地阅读文章：在 Hexo 中添加 RSS 订阅源</title>
-    <url>/2023/03/18/add-rss-in-hexo/</url>
-    <content><![CDATA[<blockquote>
-<p>使用 RSS 订阅能更快地获取信息，网站提供 RSS 输出，有利于让用户获取网站内容的最新更新。 ——百度百科</p>
-</blockquote>
-<p>RSS 订阅源是个好东西，它能使你更快更高效的获取信息。那么现在的 Hexo 博客中是否也能添加 RSS 订阅源功能呢？<em><strong>注：此文是在作者 Ordis 的文章上进行优化。<a href="https://imbhj.com/c2535796/">原文链接</a></strong></em></p>
-<h1 id="使用工具"><a href="#使用工具" class="headerlink" title="使用工具"></a>使用工具</h1><ol>
-<li>Node.js</li>
-<li>Hexo</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>已经有 npm 插件可以对 Hexo 博客进行添加 RSS 订阅源的操作。在命令行中运行代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
-<h2 id="配置-RSS-订阅源"><a href="#配置-RSS-订阅源" class="headerlink" title="配置 RSS 订阅源"></a>配置 RSS 订阅源</h2><ol>
-<li>首先打开博客配置文件（[博客源代码地址]&#x2F;_config.yml），找到 <code># Extensions</code>，在下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">plugins:</span> <span class="string">hexo-generator-feed</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%811.png" alt="添加代码"></li>
-<li>在博客配置文件最下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">./source/rss/atom.xml</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%812.png" alt="添加代码"></li>
-<li>打开主题配置文件（[博客源代码地址]&#x2F;themes&#x2F;butterfly&#x2F;_config.yml），在 <code>menu:</code> 下面添加代码：<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
-<img src="/2023/03/18/add-rss-in-hexo/%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%813.png" alt="添加代码"></li>
-<li>进行 Hexo 三连，部署后即可通过此 RSS 订阅源地址阅读文章！</li>
-</ol>
-<h1 id="如何进行-RSS-阅读（附带）"><a href="#如何进行-RSS-阅读（附带）" class="headerlink" title="如何进行 RSS 阅读（附带）"></a>如何进行 RSS 阅读（附带）</h1><ol>
-<li>首先寻找一款适合自己的 RSS 阅读器。此文章以 Fluent Reader 进行演示。</li>
-<li>打开 RSS 阅读器，点击右上角的设置按钮，进入设置页面。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE.png" alt="进入设置"></li>
-<li>在订阅源选项卡下找到添加订阅源，在输入框中输入自己的 RSS 订阅源地址（即 <code>网站域名/atom.xml</code>）。<br><img src="/2023/03/18/add-rss-in-hexo/%E8%BE%93%E5%85%A5URL.png" alt="输入URL"></li>
-<li>接下来进行愉快的 RSS 阅读吧！</li>
-</ol>
-<p>如文章中有错误请在评论指出！<br>位于 Github 上的教程的所有文章请到 <a href="https://brokentheboy123.github.io/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！<br>位于云服务器上的教程的所有文章请到 <a href="http://www.brokentheboy.top/categories/Hexo-Github-%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">分类: Hexo+Github 制作博客教程 | BROKENTheBoy</a> 查看！</p>
-]]></content>
-      <categories>
-        <category>Hexo+Github 制作博客教程</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用 Hexo+Github 制作博客第三弹！配置 Hexo 博客</title>
     <url>/2022/12/29/hexo-and-github-3/</url>
     <content><![CDATA[<p>嗨，大家好！这里是破烂男孩。在上一篇教程中，我们了解了Hexo中的六个基础命令。在今天这篇教程中，我们将学会基础配置 Hexo 博客！让我们开始吧！</p>
@@ -212,36 +212,6 @@
         <tag>Hexo</tag>
         <tag>Github</tag>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无所谓，服务器会出手：将 Hexo 博客搭载到云服务器上</title>
-    <url>/2023/02/15/hexo-to-your-server/</url>
-    <content><![CDATA[<p>在前四篇内容中，我们已经将 Hexo 博客搭载到了 Github Page 上。但 Github 被国内墙了，则你需要魔法才能正常浏览在 Github Page 上的网页。那有没有这样一种东西，Hexo 能够搭上去，并且国内能正常访问，操作也和平时一样？相信绝大多数人都想到了它——云服务器。那还等什么呢？教程开始！</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
-<li>云服务器（本篇教程使用腾讯云作参考，使用其他服务器基本操作相同）</li>
-<li>Hexo 博客</li>
-</ol>
-<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="云服务器最初设置"><a href="#云服务器最初设置" class="headerlink" title="云服务器最初设置"></a>云服务器最初设置</h2><p>我这里使用的是腾讯云2核2G 4M的轻量应用服务器，其实对于个人博客来说，只需2核2G 1M就足够了（1核2G？），这个根据个人喜好判断。服务器搭载的系统是 Ubuntu<del>（为什么不放版本号？别问，问就是忘了）</del>。<br>腾讯云的服务器中 root 账户的登录是要修改文件的，并且还要重置一次 root 的密码，在这里我尽量控制篇幅（若是其它系统一些是默认 root 账户的，但如果不知道密码还是根据第一步重置或是在服务器管理界面进行重置）。但是腾讯云是可以直接无密码登录账户的。因此若你是通过 Xshell 这类远程连接软件可以详细读一下这篇文章。</p>
-<ol>
-<li>使用任意账户登录服务器。执行命令设置 root 密码。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure></li>
-<li>重复输入两次新的密码，密码是隐藏的。</li>
-<li>执行命令打开配置文件。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure></li>
-<li>按下键盘上的i键进入编辑模式，找到<code># Authentication:</code>，如果<code>PermitRootLogin</code>参数被注释了，就去掉井号。将<code>PermitRootLogin</code>设为<code>yes</code>。</li>
-<li>按下键盘上的Esc键，输入:wq，回车。</li>
-<li>执行命令重启 ssh 服务。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure>
-这样就可以通过 root 登陆了。</li>
-</ol>
-<h2 id="搭建-Hexo-博客"><a href="#搭建-Hexo-博客" class="headerlink" title="搭建 Hexo 博客"></a>搭建 Hexo 博客</h2><p>对不起，我认为这部分内容可以直接通过两篇文章解决。若是有什么问题出现可以向文章原作者询问或向我提问。</p>
-<ol>
-<li><a href="https://zhuanlan.zhihu.com/p/120743882">将hexo个人博客部署到个人云服务器–最详细踩坑教程</a></li>
-<li><a href="https://cloud.tencent.com/developer/article/1662792">Hexo进阶教程（四）| 部署Hexo到自己的服务器</a></li>
-</ol>
-<p>在这片文章中第一部分<del>抄袭</del>借鉴了腾讯云上的教程，<a href="https://cloud.tencent.com/document/product/213/17278">原地址</a>。</p>
-<p><em><strong>注：以后这个博客将会同时在云服务器上与 Github 上共同更新</strong></em></p>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -281,6 +251,36 @@
         <tag>Github</tag>
         <tag>博客</tag>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无所谓，服务器会出手：将 Hexo 博客搭载到云服务器上</title>
+    <url>/2023/02/15/hexo-to-your-server/</url>
+    <content><![CDATA[<p>在前四篇内容中，我们已经将 Hexo 博客搭载到了 Github Page 上。但 Github 被国内墙了，则你需要魔法才能正常浏览在 Github Page 上的网页。那有没有这样一种东西，Hexo 能够搭上去，并且国内能正常访问，操作也和平时一样？相信绝大多数人都想到了它——云服务器。那还等什么呢？教程开始！</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
+<li>云服务器（本篇教程使用腾讯云作参考，使用其他服务器基本操作相同）</li>
+<li>Hexo 博客</li>
+</ol>
+<h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><h2 id="云服务器最初设置"><a href="#云服务器最初设置" class="headerlink" title="云服务器最初设置"></a>云服务器最初设置</h2><p>我这里使用的是腾讯云2核2G 4M的轻量应用服务器，其实对于个人博客来说，只需2核2G 1M就足够了（1核2G？），这个根据个人喜好判断。服务器搭载的系统是 Ubuntu<del>（为什么不放版本号？别问，问就是忘了）</del>。<br>腾讯云的服务器中 root 账户的登录是要修改文件的，并且还要重置一次 root 的密码，在这里我尽量控制篇幅（若是其它系统一些是默认 root 账户的，但如果不知道密码还是根据第一步重置或是在服务器管理界面进行重置）。但是腾讯云是可以直接无密码登录账户的。因此若你是通过 Xshell 这类远程连接软件可以详细读一下这篇文章。</p>
+<ol>
+<li>使用任意账户登录服务器。执行命令设置 root 密码。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure></li>
+<li>重复输入两次新的密码，密码是隐藏的。</li>
+<li>执行命令打开配置文件。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure></li>
+<li>按下键盘上的i键进入编辑模式，找到<code># Authentication:</code>，如果<code>PermitRootLogin</code>参数被注释了，就去掉井号。将<code>PermitRootLogin</code>设为<code>yes</code>。</li>
+<li>按下键盘上的Esc键，输入:wq，回车。</li>
+<li>执行命令重启 ssh 服务。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure>
+这样就可以通过 root 登陆了。</li>
+</ol>
+<h2 id="搭建-Hexo-博客"><a href="#搭建-Hexo-博客" class="headerlink" title="搭建 Hexo 博客"></a>搭建 Hexo 博客</h2><p>对不起，我认为这部分内容可以直接通过两篇文章解决。若是有什么问题出现可以向文章原作者询问或向我提问。</p>
+<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/120743882">将hexo个人博客部署到个人云服务器–最详细踩坑教程</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1662792">Hexo进阶教程（四）| 部署Hexo到自己的服务器</a></li>
+</ol>
+<p>在这片文章中第一部分<del>抄袭</del>借鉴了腾讯云上的教程，<a href="https://cloud.tencent.com/document/product/213/17278">原地址</a>。</p>
+<p><em><strong>注：以后这个博客将会同时在云服务器上与 Github 上共同更新</strong></em></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
