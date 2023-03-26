@@ -6,7 +6,7 @@
   <link href="http://www.brokentheboy.top/atom.xml" rel="self"/>
   
   <link href="http://www.brokentheboy.top/"/>
-  <updated>2023-03-19T07:40:26.767Z</updated>
+  <updated>2023-03-26T11:00:13.869Z</updated>
   <id>http://www.brokentheboy.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好，Windows 预览体验计划！</title>
+    <link href="http://www.brokentheboy.top/2023/03/26/windows-insider-program/"/>
+    <id>http://www.brokentheboy.top/2023/03/26/windows-insider-program/</id>
+    <published>2023-03-26T10:41:50.000Z</published>
+    <updated>2023-03-26T11:00:13.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近，微软对部分 Windows 预览体验计划用户（Canary 频道）发布了一个电子邮件，大意是会送他们一个 U 盘。刚听到消息的我并没有深入了解，而是认为微软以后会对所有 Windows 预览体验计划用户都发一个 U 盘。而事实证明：我想太多了。<br>我没有立刻就加入 Windows 预览体验计划，等到今天周末才想起来，于是赶忙加入。我选择了 Dev 频道<del>（无脑看推荐）</del>。我再次确认信息，才发现微软只给选择 Canary 计划的用户送 U 盘。<br>当然，我最后并没有退出预览体验计划。我认为我可以帮帮微软<del>（以后拿到其他好东西）</del>。<br>我给自己的评价是：有点大胆。</p><h1 id="（附带）如何加入-Windows-预览体验计划？"><a href="#（附带）如何加入-Windows-预览体验计划？" class="headerlink" title="（附带）如何加入 Windows 预览体验计划？"></a>（附带）如何加入 Windows 预览体验计划？</h1><p><em><strong>此教程基于 Windows 11 进行演示</strong></em></p><ol><li>打开设置，进入 “Windows 更新” 选项卡。<br><img src="/2023/03/26/windows-insider-program/%E8%BF%9B%E5%85%A5%E9%80%89%E9%A1%B9%E5%8D%A1.png" alt="进入选项卡"></li><li>点击 “Windows 预览体验计划”。<br><img src="/2023/03/26/windows-insider-program/%E7%82%B9%E5%87%BB.png" alt="点击"></li><li>加入 Windows 预览体验计划，填写资料，重启电脑然后更新就可以加入 Windows 预览体验计划了！<em>注：此处博主没有进行截图！如有不会处请在评论提出！</em></li></ol><p>希望 Windows 预览体验计划不会让我失望。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近，微软对部分 Windows 预览体验计划用户（Canary 频道）发布了一个电子邮件，大意是会送他们一个 U 盘。刚听到消息的我并没有深入了解，而是认为微软以后会对所有 Windows 预览体验计划用户都发一个 U
+        
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://www.brokentheboy.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Windows 预览体验计划" scheme="http://www.brokentheboy.top/tags/Windows-%E9%A2%84%E8%A7%88%E4%BD%93%E9%AA%8C%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>随时随地阅读文章：在 Hexo 中添加 RSS 订阅源</title>
